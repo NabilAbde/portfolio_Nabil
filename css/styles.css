@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  background: rgba(0, 0, 0, 0.6) !important;
+  padding: 20px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-left: 50px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1ebba3;
+}
+
+.heading-content {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  max-width: 100%;
+}
+.heading-content h5 {
+  font-size: 3em;
+  font-weight: 300;
+  color: #1ebba3;
+}
+.heading-content h1 {
+  font-size: 3em;
+  font-weight: bolder;
+  color: black;
+}
+.heading-content p {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: black;
+  word-spacing: 4px;
+  letter-spacing: 2px;
+}
+.background {
+  border: 1px solid #1ebba3;
+  display: block;
+}
+
+#about .btn {
+  border: 2px solid transparent;
+  width: 40%;
+  padding: 15px 22px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#about .btn a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#about .btn:hover {
+  border: 2px solid #1ebba3;
+  cursor: pointer;
+}
